@@ -1,0 +1,190 @@
+*{
+	padding: 0px; margin: 0px; font-family: monospace;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.content-header{
+	background: #3a5795;
+	color: white;
+	padding: 10px 0px;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+h1{
+	float: left;
+	padding-top: 8px;
+	font-size: 40px;
+}
+.content-header form{
+	float: right;
+}
+/*untuk menghilangkan efek float pada setiap elemnt ketika menggunakan*/
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content-header label{
+	font-size: 12px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid black;
+}
+.content-header label, .content-header input{
+	display: block;
+}
+.content-header input[type="checkbox"]{
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.group-from{
+	float: left;
+	margin-left: 13px;
+} 
+
+.group-from a{
+	color: #9daccb;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.content-header input[type="submit"]{
+	background: #5972a8;
+    color: white;
+    margin-top: 17px;
+    padding: 1px 4px 1px 3px;
+   /* border: 1px solid #2f477a #29447e #1a356e;*/
+    font-size: 12px;
+
+} 
+
+/*~~~~~~~~~~~~ MIDLE CONTENT~~~~~~~~~~~~~~~`*/
+
+.content-middle{
+	background: #edf0f5;
+}
+
+.content-middle .middle-left {
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+
+}
+.content-middle .middle-right{
+	float: left;
+	width: 45%;
+}
+h2{
+	margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+.content-middle ul li{
+	list-style: none;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.content-middle ul li span{
+	color: grey;
+} 
+
+/*FROM*/
+h3{
+	margin-top: 10px;
+	font-size: 35px;
+
+}
+.middle-right input{
+	border-radius: 10px;
+	border: 1px solid grey;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+.middle-right p:nth-child(2){
+	color: grey;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.middle-right input.inline{
+	float:left;
+	width:49%;
+	margin-right: 1%;
+	
+}
+.middle-right input .last-inline{
+	margin-right: 0%;
+
+}
+#birthday_info, #register_info, .middle-right p:last-child a{
+	font-size: 15px;
+    color: grey;
+    margin-left: 5px;
+}
+#register_info a{
+	text-decoration: none;
+	color: rgb(46, 113, 228);
+}
+#register_info a:hover{
+	text-decoration: underline;
+}
+input[type=radio]{
+	display: inline-block;
+	width: 20px;
+	margin-top: 15px;
+}
+
+.middle-right input[type="submit"]{
+	background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.middle-right form{
+	border-bottom: 1px solid grey;
+	margin-bottom: 10px; 
+
+}
+
+.middle-right p:last-child{
+	color: grey;
+	margin-bottom: 50px;
+} 
+
+::-webkit-input-placeholder {font-size: 10px;} /*crome*/
+::-moz-input-placeholder {font-size: 10px;} /*fireworks 10+*/
+::-ms-input-placeholder {font-size: 10px;} /*ie*/
+input:-noz-placeholder {color: #f00}; 
+
+
+/*~~~~~~~~~~~~~~~~~~CONTENT FOOTER ~~~~~~~~~~~~~~~~~~~~*/
+.content-footer{
+	padding: 5px 0;
+}
+.content-footer a{
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.content-footer li {
+	display: inline-block;
+}
+
+.content-footer ul:first-child{
+	border-bottom: 1px solid grey;
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+.content-footer p {
+	color: grey;
+	margin-top: 10px;
+	font-size: 10px;
+}
